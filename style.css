@@ -1,0 +1,227 @@
+h1, h2, h3, h4, h5{
+    font-family: cursive;
+}
+.carousel-item img{
+    height: 50vh;
+    width: 100%;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 20px black;
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+.custom-img {
+    width: 100%; 
+    height: 150px;       
+    object-fit: contain;  
+  }
+#FiverImg{
+    width: 100%; 
+    height: 120px;       
+    object-fit: contain;  
+  }
+  .custom-hover:hover {
+    background-color: #0056b3; 
+    color: white;
+    border-color: #004085;
+}
+#ownPic{
+    height: 200;
+}
+.custom-resume:hover{
+    background-color:darkblue;
+}
+.custom-Git:hover{
+    background-color: yellow;   
+}
+footer{
+    background-color: #0056b3;
+}
+.subscribe-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.social-icon:hover{
+    color: #FFD700; 
+    transform: scale(1.2); 
+    transition: all 0.3s ease-in-out;
+}
+footer {
+    background-color: #333; /* Dark footer background */
+    padding: 30px 20px;
+    color: #ffffff; /* Light text */
+    text-align: center; /* Centered content */
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #FFD700; /* Golden heading */
+    font-family: 'Poppins', sans-serif;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+    color: #FFD700; /* Golden hover effect */
+}
+
+footer .social-icons {
+    margin-top: 20px;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #FFD700; /* Golden hover effect */
+    transform: scale(1.2); /* Slight scaling effect */
+}
+
+footer .subscribe-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #FFD700; /* Golden button */
+    color: #333; /* Dark text */
+    border-radius: 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+footer .subscribe-button:hover {
+    background: #FFAA00; /* Darker gold hover */
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #bbb; /* Light gray text */
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 50vh;
+    width: 100%;
+}
+
+/* Custom Styles */
+.custom-hover:hover {
+    background-color: #0056b3; 
+    color: white;
+    border-color: #004085;
+}
+
+.custom-resume:hover {
+    background-color: darkblue;
+}
+
+.custom-Git:hover {
+    background-color: yellow;   
+}
+
+/* Social Icon Hover */
+.social-icon:hover {
+    color: #FFD700; 
+    transform: scale(1.2); 
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px;
+    }
+
+    footer .social-icons a {
+        font-size: 1.2rem;
+        margin: 0 8px;
+    }
+
+    footer ul li {
+        margin-bottom: 8px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+.card {
+    height: 100%;
+    width: 100%;
+    border: none;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    text-align: center;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: #e2e6ea;
+}
+
+.form-card {
+    background: #fff;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.form-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #007bff; 
+}
